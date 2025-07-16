@@ -6,7 +6,8 @@ from config import api_id, api_hash
 
 def is_special_message(m: Message) -> bool:
     # TODO: check caption prop
-    return (m.document is not None or
+    return (m.audio is not None or
+            m.document is not None or
             m.photo is not None or
             m.sticker is not None or
             m.animation is not None or

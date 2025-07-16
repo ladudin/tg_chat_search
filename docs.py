@@ -113,9 +113,9 @@
             For messages with a caption, special entities like usernames, URLs, bot commands, etc. that appear
             in the caption.
 
-        audio (:obj:`~pyrogram.types.Audio`, *optional*):
-            Message is an audio file, information about the file.
-
+        # audio (:obj:`~pyrogram.types.Audio`, *optional*):
+        #     Message is an audio file, information about the file.
+        #
         # document (:obj:`~pyrogram.types.Document`, *optional*):
         #     Message is a general file, information about the file.
         #

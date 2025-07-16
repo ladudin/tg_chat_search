@@ -86,7 +86,7 @@ async def main():
         async for message in app.get_chat_history(
             "natural_language_processing", limit=7, offset=0
         ):
-            message.text
+            print(message.text)
 
             # async for reply in app.get_discussion_replies(chat_id="natural_language_processing", message_id=message.id):
             #     print(f"Reply: {reply.text}")
